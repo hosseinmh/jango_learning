@@ -3,4 +3,5 @@
 # use tree command for see directory 
 # for using  venv we should use source command
 # use pip command for install django
+# at next use django-admin
 
