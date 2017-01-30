@@ -1,3 +1,6 @@
 # at  first we should install virtualenv
-# use virtual env for create a container for  my project 
+# use virtual env for create a container for  my project
+# use tree command for see directory 
+# for using  venv we should use source command
+
 
