@@ -1,0 +1,3 @@
+# at  first we should install virtualenv
+# use virtual env for create a container for  my project 
+
