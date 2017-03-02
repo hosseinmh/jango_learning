@@ -5,6 +5,14 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 
 
+
+
+def post_model_detail(request):
+    template = "web/post_model_detail.html"
+    context = {}
+    return render(request , template, context)
+
+
 # Create your views here.
 #@login_required(login_url='web/login/')# in future use this to load login page
 
@@ -23,7 +31,7 @@ def post_model(request):
     else:
         template = "web/404.html"
         return HttpResponseRedirect("/web/login/")
-        
+
         print ("not logged in ")
 
     return render(request, template, context)
