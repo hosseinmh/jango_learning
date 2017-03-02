@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render , get_object_or_404
 from .models import PostModel
 from django.views.generic import RedirectView
 from django.contrib.auth.decorators import login_required
@@ -7,8 +7,10 @@ from django.http import HttpResponseRedirect
 
 
 
+
 def post_model_detail(request):
-    obj = PostModel.objects.get(id=1)
+    #obj = PostModel.objects.get(id=1)
+    obj = get_object_or_404(PostModel,id=2)
     template = "web/post_model_detail.html"
     context = {
         "object" :obj
