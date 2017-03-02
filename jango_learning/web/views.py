@@ -17,10 +17,18 @@ def post_model_detail(request):
   #  obj = get_object_or_404(PostModel, id=1)
 
     # thisd way
-    try:
-        obj =PostModel.get(id=1)
-    except:
-        raise  Http404
+    # try:
+    #     obj =PostModel.get(id=1)
+    # except:
+    #     raise  Http404
+
+    #fourth way
+
+    qs = PostModel.objects.filter(id=1)
+    if not qs.exists():
+        raise Http404
+    else:
+        obj = qs.first()
 
 
     template = "web/post_model_detail.html"
