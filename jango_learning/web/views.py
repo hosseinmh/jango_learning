@@ -8,9 +8,12 @@ from django.http import HttpResponseRedirect
 
 
 def post_model_detail(request):
+    obj = PostModel.objects.get(id=1)
     template = "web/post_model_detail.html"
-    context = {}
-    return render(request , template, context)
+    context = {
+        "object" :obj
+    }
+    return render(request, template, context)
 
 
 # Create your views here.
