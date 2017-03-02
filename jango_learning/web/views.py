@@ -2,15 +2,27 @@ from django.shortcuts import render , get_object_or_404
 from .models import PostModel
 from django.views.generic import RedirectView
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect ,Http404
 
 
 
 
 
 def post_model_detail(request):
+
+    # first way to create a view
     #obj = PostModel.objects.get(id=1)
-    obj = get_object_or_404(PostModel,id=2)
+
+    # seccond way to create a view
+  #  obj = get_object_or_404(PostModel, id=1)
+
+    # thisd way
+    try:
+        obj =PostModel.get(id=1)
+    except:
+        raise  Http404
+
+
     template = "web/post_model_detail.html"
     context = {
         "object" :obj
