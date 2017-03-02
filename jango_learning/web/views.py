@@ -23,6 +23,7 @@ def post_model(request):
     else:
         template = "web/404.html"
         return HttpResponseRedirect("/web/login/")
+        
         print ("not logged in ")
 
     return render(request, template, context)
