@@ -4,4 +4,7 @@
 # for using  venv we should use source command
 # use pip command for install django
 # at next use django-admin
+# use manage.py file for run a server 
+# use python manage.py runserver 8000 for run a jango 
+
 
