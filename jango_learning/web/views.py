@@ -5,10 +5,16 @@ from django.http import HttpResponse
 
 def post_model(request):
     qs = PostModel.objects.all()
-    #  print(qs)
+    print(request.user)
+    if request.user.is_authenticated():
+        print ("logged in ")
+    else :
+        print ("not logged in ")
+
+
     # return HttpResponse("some new data")
-    template  = "web/index_list.html"
-    context ={
-         "objext_list":qs
+    template = "web/index_list.html"
+    context = {
+         "object_list": qs
     }
-    return render(request ,template ,context)
+    return render(request, template, context)

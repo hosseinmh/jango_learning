@@ -1,13 +1,16 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>welcome to jango site</title>
   </head>
-  <body>
+  <body> -->
     <p>
-      {{objext_list}}
+
       this is a learning site
     </p>
-  </body>
-</html>
+    {% for object in object_list %}
+        <li> {{object.title}} </li>
+    {% endfor %}
+  <!-- </body>
+</html> -->
