@@ -8,5 +8,7 @@ def post_model(request):
     #  print(qs)
     # return HttpResponse("some new data")
     template  = "web/index_list.html"
-    context ={}
+    context ={
+         "objext_list":qs
+    }
     return render(request ,template ,context)
