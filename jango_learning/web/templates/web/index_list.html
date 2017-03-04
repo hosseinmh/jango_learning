@@ -12,8 +12,8 @@
     {% for object in object_list %}
         <li>
             <a href="/web/{{object.id}}">{{object.title}}</a>
-            <a href='{% url "web:detail" id=object.id %}'>{{object.title}}</a>
-            <a href='{{object.get_absolute_url}}'>{{object.title}}</a>
+            <!--<a href='{% url "web:detail" id=object.id %}'>{{object.title}}</a>-->
+            <!--<a href='{{object.get_absolute_url}}'>{{object.title}}</a>-->
         </li>
     {% endfor %}
   <!-- </body>
