@@ -24,7 +24,7 @@ def post_model_detail(request ,id=None):
 
     #fourth way
 
-    qs = PostModel.objects.filter(id=1)
+    qs = PostModel.objects.filter(id=id)
     if not qs.exists():
         raise Http404
     else:
