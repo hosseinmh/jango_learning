@@ -24,6 +24,6 @@ urlpatterns= [
     url(r'^admin/', admin.site.urls),
     url(r'^redirect/', redirect, name="redirect"),
     url(r'^$', home, name="home"),
-    url(r'^web/', include('web.urls')),
+    url(r'^web/', include('web.urls' ,namespace="web")),
     # url (r'^$',post_model , name="post_model"),
 ]
