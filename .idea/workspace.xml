@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099e7998-c9ab-4865-a8e6-8c8062c1360d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/form.py" afterPath="$PROJECT_DIR$/jango_learning/web/form.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jango_learning/web/forms.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jango_learning/web/form.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/models.py" afterPath="$PROJECT_DIR$/jango_learning/web/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html" afterPath="$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/urls.py" afterPath="$PROJECT_DIR$/jango_learning/web/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/views.py" afterPath="$PROJECT_DIR$/jango_learning/web/views.py" />
@@ -21,6 +24,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="jango_learning" />
@@ -31,12 +41,12 @@
         <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
-                <element signature="e#543#1070#0" expanded="false" />
-                <element signature="e#1210#1598#0" expanded="false" />
-                <element signature="e#1625#1721#0" expanded="false" />
+                <element signature="e#546#1073#0" expanded="false" />
+                <element signature="e#1213#1601#0" expanded="false" />
+                <element signature="e#1628#1724#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,17 +56,17 @@
         <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jango_learning/web/form.py">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jango_learning/web/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="126">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -67,8 +77,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jango_learning/web/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            <state relative-caret-position="162">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -88,6 +98,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,9 +112,11 @@
         <option value="$PROJECT_DIR$/jango_learning/jango_learning/urls.py" />
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html" />
         <option value="$PROJECT_DIR$/jango_learning/web/form.py" />
-        <option value="$PROJECT_DIR$/jango_learning/web/views.py" />
-        <option value="$PROJECT_DIR$/jango_learning/web/urls.py" />
+        <option value="$PROJECT_DIR$/jango_learning/web/forms.py" />
+        <option value="$PROJECT_DIR$/jango_learning/web/models.py" />
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html" />
+        <option value="$PROJECT_DIR$/jango_learning/web/urls.py" />
+        <option value="$PROJECT_DIR$/jango_learning/web/views.py" />
       </list>
     </option>
   </component>
@@ -495,16 +510,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2659091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -548,7 +563,7 @@
         <state relative-caret-position="432">
           <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding>
-            <element signature="e#648#689#0" expanded="true" />
+            <element signature="e#648#689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,9 +574,9 @@
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#543#1070#0" expanded="false" />
-            <element signature="e#1210#1598#0" expanded="false" />
-            <element signature="e#1625#1721#0" expanded="false" />
+            <element signature="e#546#1073#0" expanded="false" />
+            <element signature="e#1213#1601#0" expanded="false" />
+            <element signature="e#1628#1724#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,7 +619,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#648#689#0" expanded="true" />
+            <element signature="e#648#689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,7 +658,7 @@
         <state relative-caret-position="279">
           <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding>
-            <element signature="e#648#689#0" expanded="true" />
+            <element signature="e#648#689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,41 +679,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="198">
+          <caret line="11" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#543#1070#0" expanded="false" />
-            <element signature="e#1210#1598#0" expanded="false" />
-            <element signature="e#1625#1721#0" expanded="false" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jango_learning/web/urls.py">
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jango_learning/web/form.py">
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="162">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#546#1073#0" expanded="false" />
+            <element signature="e#1213#1601#0" expanded="false" />
+            <element signature="e#1628#1724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

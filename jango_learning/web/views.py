@@ -2,14 +2,15 @@ from django.shortcuts import render , get_object_or_404
 from .models import PostModel
 from django.views.generic import RedirectView
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponseRedirect ,Http404
-from .form import PostModelForm
+from django.http import HttpResponseRedirect, Http404
+from .forms import PostModelForm
 
 def post_model_create(request):
-    form_a =PostModelForm() #create a instance from form
+    form = PostModelForm()
+    #create a instance from form
     template = "web/create_view.html"
     context = {
-        "form ":form_a
+        "form ": form
     }
     return render(request, template, context)
 
