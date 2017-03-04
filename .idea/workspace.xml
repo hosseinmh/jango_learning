@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099e7998-c9ab-4865-a8e6-8c8062c1360d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/views.py" afterPath="$PROJECT_DIR$/jango_learning/web/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html" afterPath="$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html" />
     </list>
     <ignored path="jango_learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index_list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="216">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
@@ -107,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html" />
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/404.html" />
         <option value="$PROJECT_DIR$/jango_learning/jango_learning/urls.py" />
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/login.html" />
@@ -115,6 +114,7 @@
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/post_model_detail.html" />
         <option value="$PROJECT_DIR$/jango_learning/web/urls.py" />
         <option value="$PROJECT_DIR$/jango_learning/web/views.py" />
+        <option value="$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html" />
       </list>
     </option>
   </component>
@@ -586,14 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jango_learning/jango_learning/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -639,6 +631,14 @@
             <element signature="e#962#1350#0" expanded="false" />
             <element signature="e#1377#1473#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

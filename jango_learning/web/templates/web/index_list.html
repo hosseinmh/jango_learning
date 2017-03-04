@@ -10,7 +10,7 @@
       this is a learning site
     </p>
     {% for object in object_list %}
-        <li> {{object.title}} </li>
+        <li> <a href="/web/{{object.id}}">{{object.title}}</a> </li>
     {% endfor %}
   <!-- </body>
 </html> -->
