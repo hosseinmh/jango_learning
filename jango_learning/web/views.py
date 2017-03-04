@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect ,Http404
 
 
-def post_model_create (request):
+def post_model_create(request):
 
     template = "web/create_view.html"
     context = {
