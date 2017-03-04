@@ -8,7 +8,7 @@ from django.http import HttpResponseRedirect ,Http404
 
 
 
-def post_model_detail(request):
+def post_model_detail(request ,id=None):
 
     # first way to create a view
     #obj = PostModel.objects.get(id=1)

@@ -8,6 +8,6 @@ urlpatterns = [
 # url(r'^redirect/',redirect, name="redirect"),
         url(r'^$', post_model, name="post_model"),
         url(r'^login/', login, name='login'),
-        url(r'^1/$', post_model_detail, name='detail')
+        url(r'^(?P<id>\d+)/$', post_model_detail, name='detail')
 
 ]
