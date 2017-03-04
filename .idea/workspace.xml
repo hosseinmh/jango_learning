@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -637,7 +637,7 @@
     <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/index_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
