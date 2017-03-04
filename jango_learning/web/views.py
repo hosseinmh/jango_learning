@@ -3,12 +3,13 @@ from .models import PostModel
 from django.views.generic import RedirectView
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect ,Http404
-
+from .form import PostModelForm
 
 def post_model_create(request):
-
+    form_a =PostModelForm() #create a instance from form
     template = "web/create_view.html"
     context = {
+        "form ":form_a
     }
     return render(request, template, context)
 
