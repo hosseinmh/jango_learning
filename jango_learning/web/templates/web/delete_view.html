@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>delete view</title>
+</head>
+<body>
+{{ object.title}}
+<form action="." method="POST">
+    are you sure ?
+    <input type="submit" value="Confirm">
+    <input type="submit" value="Nope">
+    <a href="/web/{{object.id}}">cancel</a>
+</form>
+</body>
+</html>

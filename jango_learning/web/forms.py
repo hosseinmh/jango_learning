@@ -4,9 +4,10 @@ from .models import PostModel
 
 class PostModelForm(forms.ModelForm):
     class Meta:
+
         model = PostModel
         fields = (
-            'title',
-            'content',
-
-        )
+           'title',
+            'active'
+           )
+     #   print ("onform")

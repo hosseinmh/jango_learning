@@ -49,7 +49,7 @@ class PostModelManager(models.Manager):
         return qs_time_2
 
 class PostModel(models.Model):
-    id= models.BigAutoField(primary_key=True)
+    id =  models.BigAutoField(primary_key=True)
     active = models.BooleanField(default=True) #empty in the database
     title = models.CharField(
                             max_length=240,

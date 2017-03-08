@@ -4,18 +4,29 @@ from django.views.generic import RedirectView
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect, Http404
 from .forms import PostModelForm
+from django.contrib import messages
 
 def post_model_create(request):
-    form = PostModelForm()
+    form = PostModelForm( request.POST or None)
+
+
     #create a instance from form
-    template = "web/create_view.html"
+
     context = {
         "form ": form
     }
+
+    if form.is_valid():
+        obj = form.save(commit = False)
+        obj.save()
+        messages.success(request , "create a new  web")
+
+    template = "web/create_view.html"
+
     return render(request, template, context)
 
 
-def post_model_detail(request ,id=None):
+def post_model_detail(request , id=None):
 
     # first way to create a view
     #obj = PostModel.objects.get(id=1)
@@ -43,6 +54,20 @@ def post_model_detail(request ,id=None):
         "object" :obj
     }
     return render(request, template, context)
+
+def post_model_delete(request , id=None):
+
+    obj = get_object_or_404(PostModel, id=id)
+    if request.method == "POST":
+        obj.delete()
+        messages.success(request,"post deleted")
+        return HttpResponseRedirect("/web/")
+    context = {
+        "object": obj
+    }
+    template = "web/delete_view.html"
+    return render(request , template ,context)
+
 
 
 # Create your views here.

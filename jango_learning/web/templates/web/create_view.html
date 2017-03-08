@@ -1,13 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>create a view</title>
-</head>
-<body>
-<form method="get" >
-{{ form.as_p }}
-<input type="submit" value="create">
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>create a view</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form method="get" >-->
+    <!--{% block id %}-->
+    <!--{% endblock %}-->
+<!--<input type="submit" value="create">-->
+    <!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
+    <h1>New post</h1>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_ul}}
+        <button type="submit" class="save btn btn-default">Save</button>
     </form>
-</body>
-</html>
