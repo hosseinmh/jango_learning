@@ -68,6 +68,53 @@ def post_model_delete(request , id=None):
     template = "web/delete_view.html"
     return render(request , template ,context)
 
+def post_model_robust(request ,id=None ):
+    obj = None
+    template = "web/post_model_detail.html"
+    suc_message = " a new post was created "
+    context = {}
+    if id is None:
+        "is obj in being could create"
+        template = "web/create_view.html"
+    if id is not None:
+        "obj is exists"
+        obj = get_object_or_404(request, id=id)
+        suc_message = " a new post was created "
+        context  ["object"] = obj
+        template = "web/create_view.html"
+
+
+        # i should declare update_view.html
+
+        # if "edit" is in request.get_full_path():
+        #     template = "web/update_view.html"
+
+
+    if "delete" in request.get_full_path():
+        template ="web/delete_view.html"
+        if request.method == "POST":
+            obj.delete()
+            messages.success(request, "post deleted")
+            return HttpResponseRedirect("/web/")
+
+    if "edit" in request.get_full_path() or "create"  in request.get_full_path():
+
+
+        # if id is not None:
+        #     template = "web/update_view.html"
+        form =PostModelForm(request.POST or None , instance=obj)
+        context["form"] = form
+        if form.is_valid():
+            obj = form.save(commit=False)
+            obj.save()
+            messages.success(request,suc_message)
+            if obj is not None:
+                return HttpResponseRedirect("/web/{num}".format(obj.id))
+            context["form"] = PostModelForm()
+
+
+    return render(request, template, context)
+
 
 
 # Create your views here.

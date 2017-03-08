@@ -5,12 +5,19 @@
     <title>delete view</title>
 </head>
 <body>
+<!--{% if messages %}-->
+<!--<ul class="messages">-->
+    <!--{% for message in messages %}-->
+    <!--<li {% if message.tags %} class="{{message.tags }}" {% endif %}>{{message}}</li>-->
+    <!--{% endfor %}-->
+
+</ul>
 {{ object.title}}
-<form action="." method="POST">
+<form action="." method="POST">{% csrf_token%}
     are you sure ?
     <input type="submit" value="Confirm">
     <input type="submit" value="Nope">
-    <a href="/web/{{object.id}}">cancel</a>
+    <a  style="position:relative;top:100px;" href="/web/{{object.id}}">cancel</a>
 </form>
 </body>
 </html>

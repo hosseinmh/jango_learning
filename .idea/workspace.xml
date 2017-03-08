@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099e7998-c9ab-4865-a8e6-8c8062c1360d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/db.sqlite3" afterPath="$PROJECT_DIR$/jango_learning/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/forms.py" afterPath="$PROJECT_DIR$/jango_learning/web/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/models.py" afterPath="$PROJECT_DIR$/jango_learning/web/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html" afterPath="$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/urls.py" afterPath="$PROJECT_DIR$/jango_learning/web/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html" afterPath="$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/views.py" afterPath="$PROJECT_DIR$/jango_learning/web/views.py" />
     </list>
     <ignored path="jango_learning.iws" />
@@ -42,17 +37,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            <state relative-caret-position="234">
+              <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
                 <element signature="e#350#699#0" expanded="false" />
                 <element signature="e#749#1276#0" expanded="false" />
-                <element signature="e#1784#2172#0" expanded="false" />
-                <element signature="e#2199#2295#0" expanded="false" />
+                <element signature="e#1325#1643#0" expanded="false" />
+                <element signature="e#3266#3654#0" expanded="false" />
+                <element signature="e#3681#3777#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -61,9 +57,11 @@
       <file leaf-file-name="delete_view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="72">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jango_learning/web/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -141,9 +139,9 @@
         <option value="$PROJECT_DIR$/jango_learning/web/forms.py" />
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/post_model_detail.html" />
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/create_view.html" />
+        <option value="$PROJECT_DIR$/jango_learning/web/urls.py" />
         <option value="$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html" />
         <option value="$PROJECT_DIR$/jango_learning/web/views.py" />
-        <option value="$PROJECT_DIR$/jango_learning/web/urls.py" />
       </list>
     </option>
   </component>
@@ -157,6 +155,28 @@
     <option name="y" value="24" />
     <option name="width" value="1366" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidPropertyValue</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -637,7 +657,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -650,8 +670,9 @@
             <element signature="e#0#55#0" expanded="true" />
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
-            <element signature="e#1784#2172#0" expanded="false" />
-            <element signature="e#2199#2295#0" expanded="false" />
+            <element signature="e#1325#1643#0" expanded="false" />
+            <element signature="e#3266#3654#0" expanded="false" />
+            <element signature="e#3681#3777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -693,7 +714,7 @@
         <state relative-caret-position="162">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -742,8 +763,9 @@
             <element signature="e#0#55#0" expanded="true" />
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
-            <element signature="e#1784#2172#0" expanded="false" />
-            <element signature="e#2199#2295#0" expanded="false" />
+            <element signature="e#1325#1643#0" expanded="false" />
+            <element signature="e#3266#3654#0" expanded="false" />
+            <element signature="e#3681#3777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,7 +783,7 @@
         <state relative-caret-position="162">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -792,8 +814,9 @@
             <element signature="e#0#55#0" expanded="true" />
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
-            <element signature="e#1784#2172#0" expanded="false" />
-            <element signature="e#2199#2295#0" expanded="false" />
+            <element signature="e#1325#1643#0" expanded="false" />
+            <element signature="e#3266#3654#0" expanded="false" />
+            <element signature="e#3681#3777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -814,8 +837,9 @@
             <element signature="e#0#55#0" expanded="true" />
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
-            <element signature="e#1784#2172#0" expanded="false" />
-            <element signature="e#2199#2295#0" expanded="false" />
+            <element signature="e#1325#1643#0" expanded="false" />
+            <element signature="e#3266#3654#0" expanded="false" />
+            <element signature="e#3681#3777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,7 +857,7 @@
         <state relative-caret-position="18">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,8 +902,9 @@
             <element signature="e#0#55#0" expanded="true" />
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
-            <element signature="e#1784#2172#0" expanded="false" />
-            <element signature="e#2199#2295#0" expanded="false" />
+            <element signature="e#1325#1643#0" expanded="false" />
+            <element signature="e#3266#3654#0" expanded="false" />
+            <element signature="e#3681#3777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -989,7 +1014,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,34 +1051,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#350#699#0" expanded="false" />
-            <element signature="e#749#1276#0" expanded="false" />
-            <element signature="e#1784#2172#0" expanded="false" />
-            <element signature="e#2199#2295#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jango_learning/web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#350#699#0" expanded="false" />
+            <element signature="e#749#1276#0" expanded="false" />
+            <element signature="e#1325#1643#0" expanded="false" />
+            <element signature="e#3266#3654#0" expanded="false" />
+            <element signature="e#3681#3777#0" expanded="false" />
           </folding>
         </state>
       </provider>
