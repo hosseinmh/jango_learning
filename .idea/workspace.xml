@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099e7998-c9ab-4865-a8e6-8c8062c1360d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/db.sqlite3" afterPath="$PROJECT_DIR$/jango_learning/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html" afterPath="$PROJECT_DIR$/jango_learning/web/templates/web/delete_view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jango_learning/web/views.py" afterPath="$PROJECT_DIR$/jango_learning/web/views.py" />
     </list>
     <ignored path="jango_learning.iws" />
@@ -40,15 +38,15 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+            <state relative-caret-position="252">
+              <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
                 <element signature="e#350#699#0" expanded="false" />
                 <element signature="e#749#1276#0" expanded="false" />
                 <element signature="e#1325#1643#0" expanded="false" />
-                <element signature="e#3266#3654#0" expanded="false" />
-                <element signature="e#3681#3777#0" expanded="false" />
+                <element signature="e#3275#3663#0" expanded="false" />
+                <element signature="e#3690#3786#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -671,8 +669,8 @@
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
             <element signature="e#1325#1643#0" expanded="false" />
-            <element signature="e#3266#3654#0" expanded="false" />
-            <element signature="e#3681#3777#0" expanded="false" />
+            <element signature="e#3275#3663#0" expanded="false" />
+            <element signature="e#3690#3786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,8 +762,8 @@
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
             <element signature="e#1325#1643#0" expanded="false" />
-            <element signature="e#3266#3654#0" expanded="false" />
-            <element signature="e#3681#3777#0" expanded="false" />
+            <element signature="e#3275#3663#0" expanded="false" />
+            <element signature="e#3690#3786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -815,8 +813,8 @@
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
             <element signature="e#1325#1643#0" expanded="false" />
-            <element signature="e#3266#3654#0" expanded="false" />
-            <element signature="e#3681#3777#0" expanded="false" />
+            <element signature="e#3275#3663#0" expanded="false" />
+            <element signature="e#3690#3786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -838,8 +836,8 @@
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
             <element signature="e#1325#1643#0" expanded="false" />
-            <element signature="e#3266#3654#0" expanded="false" />
-            <element signature="e#3681#3777#0" expanded="false" />
+            <element signature="e#3275#3663#0" expanded="false" />
+            <element signature="e#3690#3786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -903,8 +901,8 @@
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
             <element signature="e#1325#1643#0" expanded="false" />
-            <element signature="e#3266#3654#0" expanded="false" />
-            <element signature="e#3681#3777#0" expanded="false" />
+            <element signature="e#3275#3663#0" expanded="false" />
+            <element signature="e#3690#3786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1073,15 +1071,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jango_learning/web/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+        <state relative-caret-position="252">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
             <element signature="e#350#699#0" expanded="false" />
             <element signature="e#749#1276#0" expanded="false" />
             <element signature="e#1325#1643#0" expanded="false" />
-            <element signature="e#3266#3654#0" expanded="false" />
-            <element signature="e#3681#3777#0" expanded="false" />
+            <element signature="e#3275#3663#0" expanded="false" />
+            <element signature="e#3690#3786#0" expanded="false" />
           </folding>
         </state>
       </provider>

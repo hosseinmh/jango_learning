@@ -96,6 +96,7 @@ def post_model_robust(request ,id=None ):
             obj.delete()
             messages.success(request, "post deleted")
             return HttpResponseRedirect("/web/")
+        
 
     if "edit" in request.get_full_path() or "create"  in request.get_full_path():
 
